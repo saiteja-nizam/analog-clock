@@ -1,0 +1,37 @@
+#container{
+    width: 25vw;
+    height: 25vw;
+    /* background-color: aqua; */
+    margin: auto;
+    background: url('clock.png') no-repeat;
+    background-size: 100%;
+    /* border:2px solid green; */
+    position: relative;
+}
+
+#hours{
+    width:7vw;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0px;
+}
+
+#minutes{
+    width:9vw;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0px;
+
+}
+#seconds{
+    width:11vw;
+    border: 1px solid red;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0px;
+}
